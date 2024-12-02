@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* Reset some basic styles */
+body, ul, li, a, h3 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Main header styling */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo styling */
+.header-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Navigation styles */
+.header-nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav ul li a {
+    color: white;
+    font-size: 1rem;
+}
+
+.header-nav ul li h3 {
+    color: white;
+    font-size: 1rem;	
+}
+
+.header-nav ul li a:hover {
+    color: grey;
+}
+
+.header-logo img {
+    width: 65px; /* Adjust to your desired size */
+    height: 65px; /* Maintain aspect ratio for a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fits within the round shape */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+}
+
