@@ -7,7 +7,7 @@ Ce projet vise à développer une application web de gestion de scolarité perme
 - **Modèle** : Classes Java représentant les entités principales (Étudiant, Enseignant, Cours, Inscription, Résultat).  
 - **Vue** : Pages JSP pour l'affichage des données.  
 - **Contrôleur** : Servlets pour gérer les requêtes HTTP et la logique métier.  
-- **Base de Données** : Utilisation de Hibernate pour la gestion des données avec MySQL ou PostgreSQL.
+- **Base de Données** : Utilisation de Hibernate pour la gestion des données avec MySQL.
 
 ## Technologies Utilisées  
 - **Langages** : Java, HTML, CSS, JavaScript  
